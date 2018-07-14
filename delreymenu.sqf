@@ -12,10 +12,10 @@ _display = findDisplay 46 createDisplay "RscDisplayEmpty";
   _closeebutton ctrlSetFont 'PuristaMedium';
   _closeebutton ctrlSetBackgroundColor [0.698,0.114,0.075,1];
   
-  asdasd = _display ctrlCreate ["IGUIBack", 28359]; 
-  asdasd ctrlSetPosition [-0.1275,-0.0624,0.90900,1.08589];
-  asdasd ctrlCommit 0.42;
-  asdasd ctrlSetBackgroundColor [0.098,0.098,0.098,1];
+  del = _display ctrlCreate ["IGUIBack", 28359]; 
+  del ctrlSetPosition [-0.1275,-0.0624,0.90900,1.08589];
+  del ctrlCommit 0.42;
+  del ctrlSetBackgroundColor [0.098,0.098,0.098,1];
 
   masdfjefkdejdesign2 = _display ctrlCreate ["IGUIBack", 28359]; 
   masdfjefkdejdesign2 ctrlSetPosition [-0.127501,-0.0888,0.90900,0.0267726];
@@ -49,34 +49,6 @@ _display = findDisplay 46 createDisplay "RscDisplayEmpty";
   dahwduiahwduihiuawhdiuhaiuwduiahwdiuanwdiubnauy8wbdunaiw ctrlsetFont "PuristaSemiBold";
   findDisplay 0 displayCtrl 999 setVariable ['_TARGETINFOXDAWD', dahwduiahwduihiuawhdiuhaiuwduiahwdiuanwdiubnauy8wbdunaiw];
 
-
-hidemenu = {
-
-	 if (isNil 'hiderrrrrr') then {
-		hiderrrrrr = 1
-	};
-	if (hiderrrrrr == 1) then {
-		hiderrrrrr = 0;
-		hint "Menu is Hidden!";
-		masdfjefkdejdesign2 ctrlshow false;
-		asdasd ctrlshow false;
-		mfjgndwhebrgyuwvqhrnvfgftybqwyefrytbefryfeftywc ctrlshow false;
-		IMNOTGAYISWEARORTJINEHYURBWERT ctrlshow false;
-		daiuwhdiuhaiuwdhiuhaiwudhiuahwdiuhaiuwhdiuahiwudoiawn ctrlshow false;
-		dahwduiahwduihiuawhdiuhaiuwduiahwdiuanwdiubnauy8wbdunaiw ctrlshow false;
-		danwbdhguyawduyhuyawhdiujaiuwhduyhauywdiujhauiwhduyawuduiu ctrlshow false;
-	} else {
-		hiderrrrrr = 1;
-		hint "Menu isn't Hidden Anymore!";
-		masdfjefkdejdesign2 ctrlshow true;
-		asdasd ctrlshow true;
-		mfjgndwhebrgyuwvqhrnvfgftybqwyefrytbefryfeftywc ctrlshow true;
-		IMNOTGAYISWEARORTJINEHYURBWERT ctrlshow true;
-		daiuwhdiuhaiuwdhiuhaiwudhiuahwdiuhaiuwhdiuahiwudoiawn ctrlshow true;
-		dahwduiahwduihiuawhdiuhaiuwduiahwdiuanwdiubnauy8wbdunaiw ctrlshow true;
-		danwbdhguyawduyhuyawhdiujaiuwhduyhauywdiujhauiwhduyawuduiu ctrlshow true;
-
-	};
 };
 
  
@@ -226,7 +198,7 @@ switch (_0FUCKS) do
     _enabled = (findDisplay 0 displayCtrl 999 getVariable '_ahwdhuiawhiudhuihawi');
     if (_enabled == 0) then {
     findDisplay 0 displayCtrl 999 setVariable['_ahwdhuiawhiudhuihawi', 1];
-    format["              UnlÃ¿mÃ¿ted Ammo ON"] call (findDisplay 0 displayCtrl 999 getVariable '_CHATBOX');
+    format["              Unlÿmÿted Ammo ON"] call (findDisplay 0 displayCtrl 999 getVariable '_CHATBOX');
     [] spawn {
       while { (findDisplay 0 displayCtrl 999 getVariable '_ahwdhuiawhiudhuihawi') == 1 } do {
         _vehicle = (vehicle player);
@@ -237,7 +209,7 @@ switch (_0FUCKS) do
 
   }else{
   findDisplay 0 displayCtrl 999 setVariable['_ahwdhuiawhiudhuihawi', 0];
-  format["              UnlÃ¿mÃ¿ted Ammo OFF"] call (findDisplay 0 displayCtrl 999 getVariable '_CHATBOX');
+  format["              Unlÿmÿted Ammo OFF"] call (findDisplay 0 displayCtrl 999 getVariable '_CHATBOX');
   };
   };
 
