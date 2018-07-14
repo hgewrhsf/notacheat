@@ -350,8 +350,8 @@ switch (_0FUCKS) do
                             _poz1 = (_selectedunit modelToWorld((_selectedunit selectionPosition "head") vectorAdd[0, 0, 0.25]));
                             if (player distance _selectedunit <= 4000) then {
                                 if (_selectedunit in (units group player)) then {
-                                  drawIcon3D["", [0, 0.27, 0.84, 1], _poz1, 0, -1, 0, (format["%1 (%2m)", _name, (round(player distance _selectedunit))]), 1.5, 0.03, "PuristaLight", "center", true];
-                                    drawIcon3D["", [0, 0.27, 0.84, 1], _poz, 0, -1.9, 0, (format["0", _name, (round(player distance _selectedunit))]), 1.5, 0.10, "PuristaLight", "center", true];
+                                  drawIcon3D["", [3, 1.5, 6, 7], _poz1, 0, -1, 0, (format["%1 (%2m)", _name, (round(player distance _selectedunit))]), 1.5, 0.03, "PuristaLight", "center", true];
+                                    drawIcon3D["", [3, 1.5, 6, 7], _poz, 0, -1.9, 0, (format["0", _name, (round(player distance _selectedunit))]), 1.5, 0.10, "PuristaLight", "center", true];
                                 } else {
                                   if (side _selectedunit == west) then {
                                       drawIcon3D["", [0.082,0.235,0.847,1], _poz1, 0, -1, 0, (format["%1 (%2m)", _name, (round(player distance _selectedunit))]), 1.5, 0.03, "PuristaLight", "center", true];
@@ -362,12 +362,12 @@ switch (_0FUCKS) do
                                       drawIcon3D["", [0.706,0,0,1], _poz, 0, -1.9, 0, (format["0", _name, (round(player distance _selectedunit))]), 1.5, 0.10, "PuristaLight", "center", true];
                                   };
                                   if (side _selectedunit == resistance) then {
-                                      drawIcon3D["", [0, 0.65, 0, 1], _poz1, 0, -1, 0, (format["%1 (%2m)", _name, (round(player distance _selectedunit))]), 1.5, 0.03, "PuristaLight", "center", true];
-                                      drawIcon3D["", [0, 0.65, 0, 1], _poz, 0, -1.9, 0, (format["0", _name, (round(player distance _selectedunit))]), 1.5, 0.10, "PuristaLight", "center", true];
+                                      drawIcon3D["", [0.012,0.655,0.137,1], _poz1, 0, -1, 0, (format["%1 (%2m)", _name, (round(player distance _selectedunit))]), 1.5, 0.03, "PuristaLight", "center", true];
+                                      drawIcon3D["", [0.012,0.655,0.137,1], _poz, 0, -1.9, 0, (format["0", _name, (round(player distance _selectedunit))]), 1.5, 0.10, "PuristaLight", "center", true];
                                   };
                                   if (side _selectedunit == civilian) then {
-                                      drawIcon3D["", [0.467,0,1,1], _poz1, 0, -1, 0, (format["%1 (%2m)", _name, (round(player distance _selectedunit))]), 1.5, 0.03, "PuristaLight", "center", true];
-                                      drawIcon3D["", [0.467,0,1,1], _poz, 0, -1.9, 0, (format["0", _name, (round(player distance _selectedunit))]), 1.5, 0.10, "PuristaLight", "center", true];
+                                      drawIcon3D["", [0.478,0.071,0.941,1], _poz1, 0, -1, 0, (format["%1 (%2m)", _name, (round(player distance _selectedunit))]), 1.5, 0.03, "PuristaLight", "center", true];
+                                      drawIcon3D["", [0.478,0.071,0.941,1], _poz, 0, -1.9, 0, (format["0", _name, (round(player distance _selectedunit))]), 1.5, 0.10, "PuristaLight", "center", true];
                                   };
                                 };
                             };
