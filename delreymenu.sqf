@@ -2,8 +2,8 @@ findDisplay 0 setVariable ['_IREALYHATEPEOPLEWHO.PASTESHIT', {
 
 disableSerialization;
 _display = findDisplay 46 createDisplay "RscDisplayEmpty";
-	
-  _closeebutton = _display ctrlCreate ["RscButton", 28359]; 
+
+  _closeebutton = _display ctrlCreate ["RscButton", 28359];
  _closeebutton ctrlSetPosition [-0.1275,-0.0624,0.1208032,0.0285586];
   _closeebutton ctrlCommit 0.42;
   _closeebutton ctrlSetText 'X';
@@ -11,18 +11,18 @@ _display = findDisplay 46 createDisplay "RscDisplayEmpty";
   _closeebutton ctrlSetToolTip 'Press The Button To Hide The Menu!';
   _closeebutton ctrlSetFont 'PuristaMedium';
   _closeebutton ctrlSetBackgroundColor [0.698,0.114,0.075,1];
-  
-  del = _display ctrlCreate ["IGUIBack", 28359]; 
-  del ctrlSetPosition [-0.1275,-0.0624,0.90900,1.08589];
-  del ctrlCommit 0.42;
-  del ctrlSetBackgroundColor [0.098,0.098,0.098,1];
 
-  masdfjefkdejdesign2 = _display ctrlCreate ["IGUIBack", 28359]; 
+  asdasd = _display ctrlCreate ["IGUIBack", 28359];
+  asdasd ctrlSetPosition [-0.1275,-0.0624,0.90900,1.08589];
+  asdasd ctrlCommit 0.42;
+  asdasd ctrlSetBackgroundColor [0.098,0.098,0.098,1];
+
+  masdfjefkdejdesign2 = _display ctrlCreate ["IGUIBack", 28359];
   masdfjefkdejdesign2 ctrlSetPosition [-0.127501,-0.0888,0.90900,0.0267726];
   masdfjefkdejdesign2 ctrlCommit 0.42;
   masdfjefkdejdesign2 ctrlSetBackgroundColor [0.698,0.114,0.075,1];
   findDisplay 0 displayCtrl 999 setVariable ['_GAYDESIGN2', masdfjefkdejdesign2];
-  
+
   mfjgndwhebrgyuwvqhrnvfgftybqwyefrytbefryfeftywc = _display ctrlCreate ["RscListbox", 28359];
   mfjgndwhebrgyuwvqhrnvfgftybqwyefrytbefryfeftywc ctrlSetPosition [-0.12625,-0.0604,0.493297,1.08232];
   mfjgndwhebrgyuwvqhrnvfgftybqwyefrytbefryfeftywc ctrlCommit 0.42;
@@ -30,28 +30,25 @@ _display = findDisplay 46 createDisplay "RscDisplayEmpty";
   findDisplay 0 displayCtrl 999 setVariable ['_MAINBACKLIST', mfjgndwhebrgyuwvqhrnvfgftybqwyefrytbefryfeftywc];
   mfjgndwhebrgyuwvqhrnvfgftybqwyefrytbefryfeftywc ctrlAddEventHandler ["LBDblClick", "[(findDisplay 0 displayCtrl 999 getVariable '_MAINBACKLIST') lbText (lbCurSel (findDisplay 0 displayCtrl 999 getVariable '_MAINBACKLIST')), (lbCurSel (findDisplay 0 displayCtrl 999 getVariable '_MAINBACKLIST'))] call (findDisplay 0 displayCtrl 999 getVariable '_0FUCKS')"];
 
-  IMNOTGAYISWEARORTJINEHYURBWERT = _display ctrlCreate ["RscListbox", 28359]; 
+  IMNOTGAYISWEARORTJINEHYURBWERT = _display ctrlCreate ["RscListbox", 28359];
   IMNOTGAYISWEARORTJINEHYURBWERT ctrlSetPosition [0.37025,-0.06,0.406047,0.47328];
   IMNOTGAYISWEARORTJINEHYURBWERT ctrlCommit 0.42;
   IMNOTGAYISWEARORTJINEHYURBWERT ctrlsetFont "PuristaSemiBold";
   findDisplay 0 displayCtrl 999 setVariable ['_PLAYERLIST', IMNOTGAYISWEARORTJINEHYURBWERT];
 
-  daiuwhdiuhaiuwdhiuhaiwudhiuahwdiuhaiuwhdiuahiwudoiawn = _display ctrlCreate ["RscListbox", 28359]; 
+  daiuwhdiuhaiuwdhiuhaiwudhiuahwdiuhaiuwhdiuahiwudoiawn = _display ctrlCreate ["RscListbox", 28359];
   daiuwhdiuhaiuwdhiuhaiwudhiuahwdiuhaiuwhdiuahiwudoiawn ctrlSetPosition [0.37075,0.8252,0.406045,0.196446];
   daiuwhdiuhaiuwdhiuhaiwudhiuahwdiuhaiuwhdiuahiwudoiawn ctrlCommit 0.42;
   daiuwhdiuhaiuwdhiuhaiwudhiuahwdiuhaiuwhdiuahiwudoiawn ctrlsetFont "PuristaSemiBold";
   findDisplay 0 displayCtrl 999 setVariable ['_GEARLIST', daiuwhdiuhaiuwdhiuhaiwudhiuahwdiuhaiuwhdiuahiwudoiawn];
   daiuwhdiuhaiuwdhiuhaiwudhiuahwdiuhaiuwhdiuahiwudoiawn ctrlAddEventHandler ["LBDblClick", "[(findDisplay 0 displayCtrl 999 getVariable '_GEARLIST') lbText (lbCurSel (findDisplay 0 displayCtrl 999 getVariable '_GEARLIST')), (lbCurSel (findDisplay 0 displayCtrl 999 getVariable '_GEARLIST'))] call (findDisplay 0 displayCtrl 999 getVariable '_0FUCKS')"];
 
-  dahwduiahwduihiuawhdiuhaiuwduiahwdiuanwdiubnauy8wbdunaiw = _display ctrlCreate ["RscListbox", 28359]; 
+  dahwduiahwduihiuawhdiuhaiuwduiahwdiuanwdiubnauy8wbdunaiw = _display ctrlCreate ["RscListbox", 28359];
   dahwduiahwduihiuawhdiuhaiuwduiahwdiuanwdiubnauy8wbdunaiw ctrlSetPosition [0.37,0.416,0.406045,0.405412];
   dahwduiahwduihiuawhdiuhaiuwduiahwdiuanwdiubnauy8wbdunaiw ctrlCommit 0.42;
   dahwduiahwduihiuawhdiuhaiuwduiahwdiuanwdiubnauy8wbdunaiw ctrlsetFont "PuristaSemiBold";
   findDisplay 0 displayCtrl 999 setVariable ['_TARGETINFOXDAWD', dahwduiahwduihiuawhdiuhaiuwduiahwdiuanwdiubnauy8wbdunaiw];
 
-};
-
- 
       _ewoirhouihdsfiusuidfuisdbuifw5 = [
             ["DELREY Private","DRed"],
             ["DELREY.FAMILY","LRed"],
@@ -82,7 +79,7 @@ _display = findDisplay 46 createDisplay "RscDisplayEmpty";
                   _awgudguaywgduygauywdnawduyg = ["ahwdghauywgduygauwgduyd"];
               };
 
-        for "_i" 
+        for "_i"
         from 0 to (count _ewoirhouihdsfiusuidfuisdbuifw5) - 1 do {
               _list = (findDisplay 0 displayCtrl 999 getVariable '_MAINBACKLIST');
                     _tier = _ewoirhouihdsfiusuidfuisdbuifw5 select _i;
@@ -99,14 +96,14 @@ _display = findDisplay 46 createDisplay "RscDisplayEmpty";
                     };
                 };
 
-findDisplay 0 displayCtrl 999 setVariable ['_loadlist', {     
+findDisplay 0 displayCtrl 999 setVariable ['_loadlist', {
         _ewoirhouihdsfiusuidfuisdbuifw5awdawd = [
             ["Save Gear","DRed"],
             ["Load Gear","LRed"],
             ["Load Targets Gear","DRed"]
         ];
 
-        for "_i" 
+        for "_i"
         from 0 to (count _ewoirhouihdsfiusuidfuisdbuifw5awdawd) - 1 do {
               _list = (findDisplay 0 displayCtrl 999 getVariable '_GEARLIST');
                     _tier = _ewoirhouihdsfiusuidfuisdbuifw5awdawd select _i;
@@ -128,7 +125,7 @@ findDisplay 0 displayCtrl 999 setVariable ['_loadlist', {
 
 comment "MainFUnctuio";
 
-findDisplay 0 displayCtrl 999 setVariable ['_0FUCKS',{ 
+findDisplay 0 displayCtrl 999 setVariable ['_0FUCKS',{
 _0FUCKS = _this select 0;
 switch (_0FUCKS) do
 {
@@ -247,8 +244,8 @@ switch (_0FUCKS) do
 
   case "Test BitchBoiRE":
   {
-    [{ 
-          systemChat 'BattlEye Client: Updated (v1.243)'; 
+    [{
+          systemChat 'BattlEye Client: Updated (v1.243)';
   }] spawn (findDisplay 0 displayCtrl 999 getVariable '_IloveYou');
   };
 
@@ -301,7 +298,7 @@ switch (_0FUCKS) do
           call god_mode_script;
           format["               GOD MODE Script"] call (findDisplay 0 displayCtrl 999 getVariable '_CHATBOX');
         };
-		
+
   case "No Fatigue":
         {
           call fat_script;
@@ -313,13 +310,13 @@ switch (_0FUCKS) do
 		Call explosweirniwerbhiudfgdfger5g;
 		format ["                   Boom Bullet script"] call (findDisplay 0 displayctrl 999 getVariable '_CHATBOX');
 		};
-		
+
 		case "Map_Esp":
 		{
 		Call jam_mesp;
 		format ["                   Boom Bullet script"] call (findDisplay 0 displayctrl 999 getVariable '_CHATBOX');
 		};
-		
+
 	 case "Save Gear":
     {
       _playershit = getUnitLoadout player;
@@ -372,7 +369,7 @@ switch (_0FUCKS) do
                     _eveeenty = (findDisplay 0 displayCtrl 999 getVariable '_agwy8dgyuagwudguguyawgdugy');
                     removeMissionEventHandler["Draw3D", _eveeenty];
                     format["              PlayerESP OFF"] call (findDisplay 0 displayCtrl 999 getVariable '_CHATBOX');
-                    
+
                    };
   };
 
@@ -447,7 +444,7 @@ switch (_0FUCKS) do
                         _awuydgauywgduyguadwd = (findDisplay 0 displayCtrl 999 getVariable '_auwgduyagwduyaw');
                         removeMissionEventHandler["Draw3D", _awuydgauywgduyguadwd];
                         format["              vehicle Visuals OFF"] call (findDisplay 0 displayCtrl 999 getVariable '_CHATBOX');
-                    };  
+                    };
         };
 		};
 }];
@@ -538,90 +535,90 @@ _List = configFile >> "cfgWeapons";
           lbSort s;
 };
 
-[] call { 
+[] call {
   _s = (findDisplay 0 displayCtrl 999 getVariable '_PLAYERLIST');
   _s ctrlAddEventHandler["LBDblClick", "[(findDisplay 0 displayCtrl 999 getVariable '_PLAYERLIST') lbText (lbCurSel (findDisplay 0 displayCtrl 999 getVariable '_PLAYERLIST')), (lbCurSel (findDisplay 0 displayCtrl 999 getVariable '_PLAYERLIST'))] call (findDisplay 0 displayCtrl 999 getVariable '_agwudygauywgduyguyawgduygauywd')"];
   lbClear _s;
-  _meme = _s lbAdd format["=PLAYERS (500m)="]; 
-  _s lbSetColor[_meme,[0.376,0.039,0.027,1]]; 
- 
- { 
-   if ((player distance _x < 500) && !(isNull _x)) then { 
-         _s lbAdd format["%1", name _x]; 
-         _s lbSetData[(lbsize _s) - 1, "1"]; 
-          if (side _x == west) then { 
-               _s lbSetColor[(lbsize _s) - 1, [0, 0.5, 1, 1] ]; 
-               if ((vehicle _x isKindOf "LandVehicle") || (vehicle _x isKindOf "Air") || (vehicle _x isKindOf "Ship")) then { 
-                _s lbSetPicture[(lbsize _s) - 1, (gettext(configFile >> 'CfgVehicles' >> (typeof vehicle _x) >> 'picture'))]; 
+  _meme = _s lbAdd format["=PLAYERS (500m)="];
+  _s lbSetColor[_meme,[0.376,0.039,0.027,1]];
+
+ {
+   if ((player distance _x < 500) && !(isNull _x)) then {
+         _s lbAdd format["%1", name _x];
+         _s lbSetData[(lbsize _s) - 1, "1"];
+          if (side _x == west) then {
+               _s lbSetColor[(lbsize _s) - 1, [0, 0.5, 1, 1] ];
+               if ((vehicle _x isKindOf "LandVehicle") || (vehicle _x isKindOf "Air") || (vehicle _x isKindOf "Ship")) then {
+                _s lbSetPicture[(lbsize _s) - 1, (gettext(configFile >> 'CfgVehicles' >> (typeof vehicle _x) >> 'picture'))];
                };
-           }; 
-           if (side _x == east) then { 
-               _s lbSetColor[(lbsize _s) - 1, [1, 0.2, 0.2, 1] ]; 
-               if ((vehicle _x isKindOf "LandVehicle") || (vehicle _x isKindOf "Air") || (vehicle _x isKindOf "Ship")) then { 
-                _s lbSetPicture[(lbsize _s) - 1, (gettext(configFile >> 'CfgVehicles' >> (typeof vehicle _x) >> 'picture'))]; 
+           };
+           if (side _x == east) then {
+               _s lbSetColor[(lbsize _s) - 1, [1, 0.2, 0.2, 1] ];
+               if ((vehicle _x isKindOf "LandVehicle") || (vehicle _x isKindOf "Air") || (vehicle _x isKindOf "Ship")) then {
+                _s lbSetPicture[(lbsize _s) - 1, (gettext(configFile >> 'CfgVehicles' >> (typeof vehicle _x) >> 'picture'))];
                };
-           }; 
-           if (side _x == resistance) then { 
-               _s lbSetColor[(lbsize _s) - 1, [0, 0.65, 0, 1] ]; 
-               if ((vehicle _x isKindOf "LandVehicle") || (vehicle _x isKindOf "Air") || (vehicle _x isKindOf "Ship")) then { 
-                _s lbSetPicture[(lbsize _s) - 1, (gettext(configFile >> 'CfgVehicles' >> (typeof vehicle _x) >> 'picture'))]; 
+           };
+           if (side _x == resistance) then {
+               _s lbSetColor[(lbsize _s) - 1, [0, 0.65, 0, 1] ];
+               if ((vehicle _x isKindOf "LandVehicle") || (vehicle _x isKindOf "Air") || (vehicle _x isKindOf "Ship")) then {
+                _s lbSetPicture[(lbsize _s) - 1, (gettext(configFile >> 'CfgVehicles' >> (typeof vehicle _x) >> 'picture'))];
                };
-           }; 
-           if (side _x == civilian) then { 
-               _s lbSetColor[(lbsize _s) - 1, [0.467,0,1,1] ]; 
-               if ((vehicle _x isKindOf "LandVehicle") || (vehicle _x isKindOf "Air") || (vehicle _x isKindOf "Ship")) then { 
-                _s lbSetPicture[(lbsize _s) - 1, (gettext(configFile >> 'CfgVehicles' >> (typeof vehicle _x) >> 'picture'))]; 
+           };
+           if (side _x == civilian) then {
+               _s lbSetColor[(lbsize _s) - 1, [0.467,0,1,1] ];
+               if ((vehicle _x isKindOf "LandVehicle") || (vehicle _x isKindOf "Air") || (vehicle _x isKindOf "Ship")) then {
+                _s lbSetPicture[(lbsize _s) - 1, (gettext(configFile >> 'CfgVehicles' >> (typeof vehicle _x) >> 'picture'))];
                };
-            }; 
-    }; 
- } forEach allPlayers; 
- 
- _meme = _s lbAdd format["=PLAYERS (FOOT)="]; 
-  _s lbSetColor[_meme,[0.376,0.039,0.027,1]]; 
- 
- { 
-   if ((vehicle _x == _x) && (player distance _x > 500) && (isPlayer _x) && !(isNull _x)) then { 
-         _s lbAdd format["%1", name _x]; 
-         _s lbSetData[(lbsize _s) - 1, "1"]; 
-          if (side _x == west) then { 
-               _s lbSetColor[(lbsize _s) - 1, [0, 0.5, 1, 1] ]; 
-           }; 
-           if (side _x == east) then { 
-               _s lbSetColor[(lbsize _s) - 1, [1, 0.2, 0.2, 1] ]; 
-           }; 
-           if (side _x == resistance) then { 
-               _s lbSetColor[(lbsize _s) - 1, [0, 0.65, 0, 1] ]; 
-           }; 
-           if (side _x == civilian) then { 
-               _s lbSetColor[(lbsize _s) - 1, [0.467,0,1,1] ]; 
-            }; 
-    }; 
- } forEach allPlayers; 
- 
- _meme = _s lbAdd format["=PLAYERS (VEHICLE)="]; 
-  _s lbSetColor[_meme,[0.376,0.039,0.027,1]]; 
- { 
-  if ((vehicle _x != _x) && (player distance _x > 500) && (isPlayer _x) && !(isNull _x)) then { 
-         if ((vehicle _x isKindOf "LandVehicle") || (vehicle _x isKindOf "Air") || (vehicle _x isKindOf "Ship")) then { 
-         _s lbAdd format["%1", name _x]; 
-         _s lbSetData[(lbsize _s) - 1, "1"]; 
-         _s lbSetPicture[(lbsize _s) - 1, (gettext(configFile >> 'CfgVehicles' >> (typeof vehicle _x) >> 'picture'))]; 
-          if (side _x == west) then { 
-               _s lbSetColor[(lbsize _s) - 1, [0, 0.5, 1, 1] ]; 
-           }; 
-           if (side _x == east) then { 
-               _s lbSetColor[(lbsize _s) - 1, [1, 0.2, 0.2, 1] ]; 
-           }; 
-           if (side _x == resistance) then { 
-               _s lbSetColor[(lbsize _s) - 1, [0, 0.65, 0, 1] ]; 
-           }; 
-           if (side _x == civilian) then { 
-               _s lbSetColor[(lbsize _s) - 1, [0.467,0,1,1] ]; 
-            }; 
-        }; 
-    }; 
- } forEach allPlayers; 
-}; 
+            };
+    };
+ } forEach allPlayers;
+
+ _meme = _s lbAdd format["=PLAYERS (FOOT)="];
+  _s lbSetColor[_meme,[0.376,0.039,0.027,1]];
+
+ {
+   if ((vehicle _x == _x) && (player distance _x > 500) && (isPlayer _x) && !(isNull _x)) then {
+         _s lbAdd format["%1", name _x];
+         _s lbSetData[(lbsize _s) - 1, "1"];
+          if (side _x == west) then {
+               _s lbSetColor[(lbsize _s) - 1, [0, 0.5, 1, 1] ];
+           };
+           if (side _x == east) then {
+               _s lbSetColor[(lbsize _s) - 1, [1, 0.2, 0.2, 1] ];
+           };
+           if (side _x == resistance) then {
+               _s lbSetColor[(lbsize _s) - 1, [0, 0.65, 0, 1] ];
+           };
+           if (side _x == civilian) then {
+               _s lbSetColor[(lbsize _s) - 1, [0.467,0,1,1] ];
+            };
+    };
+ } forEach allPlayers;
+
+ _meme = _s lbAdd format["=PLAYERS (VEHICLE)="];
+  _s lbSetColor[_meme,[0.376,0.039,0.027,1]];
+ {
+  if ((vehicle _x != _x) && (player distance _x > 500) && (isPlayer _x) && !(isNull _x)) then {
+         if ((vehicle _x isKindOf "LandVehicle") || (vehicle _x isKindOf "Air") || (vehicle _x isKindOf "Ship")) then {
+         _s lbAdd format["%1", name _x];
+         _s lbSetData[(lbsize _s) - 1, "1"];
+         _s lbSetPicture[(lbsize _s) - 1, (gettext(configFile >> 'CfgVehicles' >> (typeof vehicle _x) >> 'picture'))];
+          if (side _x == west) then {
+               _s lbSetColor[(lbsize _s) - 1, [0, 0.5, 1, 1] ];
+           };
+           if (side _x == east) then {
+               _s lbSetColor[(lbsize _s) - 1, [1, 0.2, 0.2, 1] ];
+           };
+           if (side _x == resistance) then {
+               _s lbSetColor[(lbsize _s) - 1, [0, 0.65, 0, 1] ];
+           };
+           if (side _x == civilian) then {
+               _s lbSetColor[(lbsize _s) - 1, [0.467,0,1,1] ];
+            };
+        };
+    };
+ } forEach allPlayers;
+};
 comment "Show All Players";
 
 findDisplay 0 displayCtrl 999 setVariable ['_agwudygauywgduyguyawgduygauywd', {
@@ -636,11 +633,11 @@ findDisplay 0 displayCtrl 999 setVariable ['_agwudygauywgduyguyawgduygauywd', {
                     _s = (findDisplay 0 displayCtrl 999 getVariable '_TARGETINFOXDAWD');
                     lbClear _s;
               _reeeeee = _s lbAdd format["Name: %1", str _name];
-              _s lbSetColor[_reeeeee,[1, 0.95, 0.38, 1]]; 
+              _s lbSetColor[_reeeeee,[1, 0.95, 0.38, 1]];
               _reeeeee = _s lbAdd format["UID: %1", str _uid];
-              _s lbSetColor[_reeeeee,[1, 0.95, 0.38, 1]]; 
+              _s lbSetColor[_reeeeee,[1, 0.95, 0.38, 1]];
               _reeeeee = _s lbAdd format["POS: %1", str _pos];
-              _s lbSetColor[_reeeeee,[1, 0.95, 0.38, 1]]; 
+              _s lbSetColor[_reeeeee,[1, 0.95, 0.38, 1]];
                 };
             }
             forEach allUnits;
@@ -663,7 +660,7 @@ findDisplay 0 displayCtrl 999 setVariable ['_VehNESS',{
         findDisplay 0 displayCtrl 999 setVariable['_CHECK', 0];
       } else {
         format["              You trying to spawn %1", _vehicle] call (findDisplay 0 displayCtrl 999 getVariable '_CHATBOX');
-        [{ 
+        [{
           {
             if (_x == player) then {
               _agwydua= (findDisplay 0 displayCtrl 999 getVariable '_vehicle') createVehicle getPos player;
@@ -689,7 +686,7 @@ format["              Thanks 3D for the RE"] call (findDisplay 0 displayCtrl 999
   findDisplay 0 displayCtrl 999 setVariable['_CHECK', 1];
   findDisplay 0 displayCtrl 999 setVariable['_auwgduyagwduyagwduawd', 0];
   findDisplay 0 displayCtrl 999 setVariable['_kkkadkkkkdkdkkdkkdkdk', 0];
-  
+
   while {697 == 697} do {
     _KEYMANDERLER = (findDisplay 46) displayAddEventHandler ["KeyDown", "if ((_this select 1) == 0xD2) then {
       call (findDisplay 0 getVariable '_IREALYHATEPEOPLEWHO.PASTESHIT');
@@ -702,7 +699,7 @@ god_mode_script = {
 			_fnc_scriptName = if (isnil "_fnc_scriptName") then {"Functions Init"} else {_fnc_scriptName};
 
 			_Locally_jsjfjhdusjfjdf_iplygod = player;
-	
+
 			if (isnil ("g3rdm0de")) then {g3rdm0de = 0;};
 			if (g3rdm0de==0) then {
 			g3rdm0de=1;
@@ -725,22 +722,22 @@ god_mode_script = {
 				vehicle player allowDamage true;
 			};
 		};
-		
+
 	fat_script = {
 			_fnc_scriptName = if (isnil "_fnc_scriptName") then {"Functions Init"} else {_fnc_scriptName};
 
 			_Locally_jsjfjhdusjfjdf_iplygod = player;
-	
+
 			if (isnil ("g3rdm0de")) then {g3rdm0de = 0;};
 			if (g3rdm0de==0) then {g3rdm0de=1;cutText [format["No Fatigue ENABLED"], "PLAIN DOWN"];hint "No Fatigue ENABLED";}else{g3rdm0de=0;cutText [format["No Fatigue DISABLED"], "PLAIN DOWN"];hint "No Fatigue DISABLED";};
-	
+
 			if (g3rdm0de == 1) then {
 				player enableStamina false;
 			} else {
 				player enableStamina true;
 			};
 		};
-		
+
 jam_mesp = {
 if (isNil 'toggle') then {
 toggle = 1
