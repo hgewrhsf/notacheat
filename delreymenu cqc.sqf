@@ -71,8 +71,8 @@ _display = findDisplay 46 createDisplay "RscDisplayEmpty";
 			      ["Unlimited ammo","DRed"],
 			      ["God Mode","LRed"],
 			      ["No Fatigue","DRed"],
-			      ["Boom Bullets","LRed"],
-			      ["Map_Esp","DRed"],
+			      ["","LRed"],
+			      ["","DRed"],
 			      ["","LRed"],
             ["","DRed"],
             ["","LRed"]
@@ -307,18 +307,6 @@ switch (_0FUCKS) do
           call fat_script;
           format["               GOD MODE Script"] call (findDisplay 0 displayCtrl 999 getVariable '_CHATBOX');
         };
-
-		case "Boom Bullets":
-		{
-		Call explosweirniwerbhiudfgdfger5g;
-		format ["                   Boom Bullet script"] call (findDisplay 0 displayctrl 999 getVariable '_CHATBOX');
-		};
-
-		case "Map_Esp":
-		{
-		Call jam_mesp;
-		format ["                   Boom Bullet script"] call (findDisplay 0 displayctrl 999 getVariable '_CHATBOX');
-		};
 
 	 case "Save Gear":
     {
